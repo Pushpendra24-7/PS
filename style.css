@@ -365,7 +365,7 @@ button{
     margin-bottom:3rem
 }
 
-@media (max-width: 410px){.skills__item:not(:last-child){margin-bottom:15px}}
+@media (max-width: 210px){.skills__item:not(:last-child){margin-bottom:15px}}
 
 .skills__item img{
     height:60px;
