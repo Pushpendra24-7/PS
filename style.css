@@ -281,7 +281,7 @@ button{
     display:flex;
     justify-content:flex-start;
     align-items:center;
-    background-image: url("./imgs/rohanerfre.jpeg");
+    background-image: url("./imgs/ps.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -468,7 +468,7 @@ button{
     margin-bottom:6rem
 }
 
-/* .contact__form{
+.contact__form{
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -570,7 +570,7 @@ button{
     align-items:center
 } */
 
-/* .form-error{
+ .form-error{
     align-self:start;
     font-size:1.6rem;
     font-weight:500;
@@ -583,7 +583,7 @@ button{
 
 .input-error{
     border-left:2px solid #ff4d5a !important
-} */
+}
 
 /* ===================== FOOTER ===================== */
 
