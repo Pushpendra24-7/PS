@@ -103,11 +103,11 @@
             <div class="skills__item-name">GIT</div>
           </div> -->
         </div>
-         <div class="skills__row">
+        <div class="skills__row">
           <div class="skills__item skills__item--sass">
             <img src="./imgs/JS.png" alt="" />
             <div class="skills__item-name">Javascript</div>
-          </div> 
+          </div>
           <!--
           <div class="skills__item skills__item--webpack">
             <img src="./assets/nextjs.png" alt="" />
@@ -119,17 +119,17 @@
             <div class="skills__item-name">NODE.JS</div>
           </div>
         </div> -->
-        <div class="skills__row">
-          <div class="skills__item skills__item--git">
-            <img src="./assets/react.png" alt="" />
+          <div class="skills__row">
+            <div class="skills__item skills__item--git">
+              <img src="./assets/react.png" alt="" />
+            </div>
           </div>
+
+
+
+
         </div>
-
-      
-
-
       </div>
-    </div>
   </section>
   <!-- <section class="projects" id="projects">
       <h2 class="projects__heading section-heading">Projects</h2>
@@ -193,7 +193,7 @@
     <p class="contact__text">Want to work together? Contact me on any platform and let's collaborate.</p>
 
     <section class="socials">
-   
+
       <a href="https://twitter.com/Pushpendra24_7">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10rem" height="10rem" viewBox="0 0 172 172"
           style=" fill:#000000;">
@@ -232,7 +232,7 @@
         </svg>
       </a>
 
-     
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path
           d="M19 0H5C2.761 0 1 2.761 1 6v18C1 21.239 2.761 24 5 24h14c2.239 0 4-2.761 4-6v-18C23 2.761 21.239 0 19 0z"
@@ -242,7 +242,7 @@
           fill="#FFFFFF" />
       </svg>
 
-      
+
 
     </section>
   </section>
@@ -257,15 +257,17 @@
     <h2 class="contact__heading section-heading">Contact</h2>
     <p class="contact__text">Have a question or want to work together? Leave your details and I'll get back to you as
       soon as possible.</p>
-    <form class="contact__form" action="https://formspree.io/f/xdoprgpv" method="POST"><input class="contact__form-name"
-        name="name" placeholder="Name" /> <input class="contact__form-email" type="email" name="_replyto"
-        placeholder="Email" /> <textarea class="contact__form-message" name="message" placeholder="Message"></textarea>
+    <form class="contact__form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="bbf5c47e-a92f-42d6-b784-649a7d99436a">
+      <input class="contact__form-name" name="name" placeholder="Name" />
+      <input class="contact__form-email" type="email" name="_replyto" placeholder="Email" /> <textarea
+        class="contact__form-message" name="message" placeholder="Message"></textarea>
       <div class="contact__form-error-submit">
         <div class="form-error">
           <div class="form-error__name">Please enter your name.</div>
           <div class="form-error__email">Please enter a valid email.</div>
           <div class="form-error__msg">Please enter a message.</div>
-        </div><button type="button" class="contact__form-submit">Submit</button>
+        </div><button type="submit" class="contact__form-submit">Submit</button>
       </div>
     </form>
   </section>
@@ -277,7 +279,7 @@
           </path>
         </svg></div>
     </a>
-    
+
     <p class="copyright">PUSHPENDRA SAHU ©2024</p>
   </footer>
 </body>
